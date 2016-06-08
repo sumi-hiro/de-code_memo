@@ -1,0 +1,74 @@
+# Xamarin
+
+* Xamarinとは
+  クロスプラットフォーム開発ツール
+
+全部C#/.MET
+コード共通化
+visualstudio
+
+書くプラットフォームのネイティブUI/APIを100%利用可能
+ネイティブをほぼ同じパフォーマンス
+
+日本語ユーザが少ない。
+
+三井住友銀行
+紅白アプリ
+
+フロント・バックもC#で書くならとても有効
+
+## Xamarinの仕組み
+ベースはmono
+ベースクラスライブラリは共通化（UIはそれぞれのネイティブを使う。）
+C#でiOS/AndroidのAPIを叩くことができる。
+
+## Xamarinの開発環境
+* win Visualstudio
+* mac
+
+mac -> iOS, win -> win10mobile はとても簡単
+win
+* visualStudio update2 with Xamarin インストール時にXamarinにチェックをいれる
+android SDK , JAVA
+* Mac
+Xcode
+Xamarin Studio
+
+## demo
+Android　新規
+  Cross-platform     native potavle
+deploy先　emulator or 実機　　　実機の方が楽。
+androidのメソッド?もインテリセンスが効く。
+
+iOS Xamarin studio
+storyboard, viewController
+iOSはシュミレーターが簡単
+
+## Xamarinのこれから
+Xamarin.forms
+* uiコードも統一
+* XAMLで記述
+枯れている技術
+
+(Xamarinネイティブ or Xamarin.Forms の２択で作る。)
+さくっと作りたいならForms
+コントロールは１９個しかない。
+できてからまだ２年の技術
+
+.net framework
+  wpf
+  win forms
+  asp.net
+net core
+  uwp
+  asp.net core
+xamarin (mono class library)
+  ios
+  osx
+  android
+
+.NET STANDARD LIBRARY  <-　ベースライブラリの共通化を目指す
+
+## まとめ
+* すぐにはじめよう
+* ユーザグループ

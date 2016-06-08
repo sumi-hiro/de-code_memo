@@ -1,0 +1,23 @@
+# microsoft Bot Framework
+
+* Botコネクター
+* Skypeへ登録
+
+zipのままtemplateフォルダに放り込む
+emulatorをダウンロード
+新規作成　c# -> bot application
+
+deploy Endpoint
+WebConfig内 id, sectetid を入れて２度目のデプロイ
+
+## Cognitive Service
+how-old.net とか
+cognitive service API
+
+microsoftアカウントでログインしてAPIキーを取得
+
+imageの渡し方
+* URLを返す
+* ストリームで返す
+
+API
